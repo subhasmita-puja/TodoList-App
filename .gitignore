@@ -1,0 +1,14 @@
+# System Files 
+.bash_history 
+.vscode/ 
+AppData/ 
+Downloads/ 
+Favorites/ 
+NTUSER.DAT* 
+*.LOG* 
+OneDrive/ 
+Videos/ 
+Saved Games/ 
+Netflix Clone*/ 
+node_modules/ 
+.env 
