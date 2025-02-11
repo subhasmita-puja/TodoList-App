@@ -8,7 +8,7 @@ export default defineConfig({
   tailwindcss(),
 ],
 build: {
-  outDir: 'dist',
+ emptyOutDir: 'true',
   // Ensure proper asset handling 
   assetsDir: 'assets',
   //Generate proper asset names
@@ -19,5 +19,10 @@ build: {
       entryFileNames: 'assets/[name]-[hash].js',
     }
   }
+},
+resolve: {
+  alias: {
+ '@':   './src'
+}
 }
 })

@@ -12,3 +12,4 @@ Saved Games/
 Netflix Clone*/ 
 node_modules/ 
 .env 
+.vercel
